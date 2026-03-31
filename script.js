@@ -34,18 +34,6 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   /* ----------------------------------------------------------
-     NAV — compress on scroll
-  ---------------------------------------------------------- */
-  const nav = qs('#nav');
-
-  function onScroll() {
-    nav.classList.toggle('scrolled', window.scrollY > 60);
-  }
-
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-
-  /* ----------------------------------------------------------
      MOBILE MENU
   ---------------------------------------------------------- */
   const hamburger   = qs('.hamburger');
