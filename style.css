@@ -223,7 +223,7 @@ p { font-size: 0.95rem; line-height: 1.8; }
   backdrop-filter: blur(16px) saturate(1.4);
   -webkit-backdrop-filter: blur(16px) saturate(1.4);
   box-shadow: 0 1px 0 rgba(250,247,242,0.06), 0 4px 24px rgba(0,0,0,0.25);
-  padding: 0.4rem 0;
+  padding: 0.6rem 0;
 }
 
 .nav-inner {
@@ -234,11 +234,32 @@ p { font-size: 0.95rem; line-height: 1.8; }
   gap: 2rem;
 }
 
-.nav-logo img {
-  height: 60px;
-  width: auto;
-  display: block;
-  flex-shrink: 0;
+.nav-wordmark {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  white-space: nowrap;
+}
+
+.nav-wordmark-top {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+  line-height: 1;
+}
+
+.nav-wordmark-bottom {
+  font-family: var(--font-body);
+  font-size: 0.55rem;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--cream);
+  line-height: 1;
 }
 
 .nav-links {
@@ -1119,9 +1140,32 @@ p { font-size: 0.95rem; line-height: 1.8; }
 }
 
 /* Col 1: Brand */
-.footer-logo {
-  opacity: 0.85;
+.footer-wordmark {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
   margin-bottom: 1rem;
+}
+
+.footer-wordmark-top {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+  line-height: 1;
+}
+
+.footer-wordmark-bottom {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--cream);
+  line-height: 1;
 }
 
 .footer-company-name {
@@ -1458,7 +1502,6 @@ p { font-size: 0.95rem; line-height: 1.8; }
     gap: 0.5rem;
   }
   .nav-logo { justify-self: start; }
-  .nav-logo img { height: 48px; }
   .nav-actions {
     display: flex;
     justify-self: center;
