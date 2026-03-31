@@ -139,7 +139,7 @@ p { font-size: 0.95rem; line-height: 1.8; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/Images/oxidized_copper.png');
+  background-image: url('/Images/oxidized_copper.avif');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -441,9 +441,9 @@ p { font-size: 0.95rem; line-height: 1.8; }
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(28,28,26,0.88) 0%,
-    rgba(28,28,26,0.45) 50%,
-    rgba(28,28,26,0.15) 100%
+    rgba(28,28,26,0.92) 0%,
+    rgba(28,28,26,0.65) 50%,
+    rgba(28,28,26,0.45) 100%
   );
 }
 
@@ -458,7 +458,7 @@ p { font-size: 0.95rem; line-height: 1.8; }
 
 .hero-content .eyebrow {
   display: table;
-  color: rgba(250,247,242,0.6);
+  color: rgba(250,247,242,0.85);
   padding-bottom: 1rem;
   border-bottom: 1px solid rgba(250,247,242,0.4);
   margin-bottom: 1.25rem;
@@ -476,7 +476,7 @@ p { font-size: 0.95rem; line-height: 1.8; }
 }
 
 .hero-sub {
-  color: rgba(250,247,242,0.8);
+  color: rgba(250,247,242,0.95);
   font-size: clamp(0.9rem, 1.5vw, 1.05rem);
   max-width: 48ch;
   margin-bottom: 2rem;
@@ -523,7 +523,7 @@ p { font-size: 0.95rem; line-height: 1.8; }
   inset: 0;
   background:
     linear-gradient(rgba(28,28,26,0.34), rgba(28,28,26,0.34)),
-    url('/Images/brushed_copper.png') center / cover;
+    url('/Images/brushed_copper.avif') center / cover;
   opacity: 0.32;
   z-index: -1;
 }
